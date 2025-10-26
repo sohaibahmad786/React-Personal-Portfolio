@@ -1,0 +1,489 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(11, 11, 90);
+    color: white;
+    perspective: 800px;
+}
+
+.container {
+    animation: containery 2s ease-in forwards;
+    transform-style: preserve-3d;
+}
+
+@keyframes containery {
+    from {
+        transform: translateZ(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateZ(0px);
+        opacity: 1;
+    }
+}
+
+.navebar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    animation: navebary 1s ease-in forwards;
+    transform-style: preserve-3d;
+}
+
+@keyframes navebary {
+    from {
+        transform: translateZ(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateZ(0px);
+        opacity: 1;
+    }
+}
+
+.Beginner {
+    margin-left: 50px;
+}
+
+.Beginner:hover {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+
+}
+
+
+
+.information p {
+    font-size: 23px;
+    margin-right: 23px;
+    font-weight: 600;
+}
+
+.information p:hover {
+    background-color: red;
+    color: yellow;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.hithere {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.sohaib {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.mainbody {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frontend p {
+    color: rgb(45, 250, 45);
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 250px;
+    /* font-size: 25px; */
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.icons i {
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+}
+
+.About {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.boxes {
+    margin-top: 50px;
+    height: 270px;
+    width: 250px;
+    padding: 5px;
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    border-radius: 10%;
+    animation: boxx 2s ease-in forwards;
+    transition: all 0.3s ease-in;
+}
+
+.boxes:hover {
+    background-color: red;
+    color: yellow;
+    border: 3px solid yellow;
+    transform: scale(2);
+
+}
+
+.boxes p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+@keyframes boxx {
+    from {
+        transform: translateZ(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateZ(0px);
+    }
+}
+
+
+.Skills {
+    /* border: 2px solid yellow;
+   height: 430px; */
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    animation: skilling 1s ease-in forwards;
+    transform-style: preserve-3d;
+}
+
+.Skills p {
+    font-size: 18px;
+}
+
+.skill-box {
+    margin-top: 15px;
+    border: 2px solid red;
+    padding: 8px;
+    text-align: center;
+    height: 250px;
+    width: 270px;
+    border-radius: 10%;
+    background-color: yellow;
+    color: red;
+}
+
+.skill-box:hover {
+    background-color: red;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.skill-box p {
+    margin-top: 15px;
+}
+
+@keyframes skilling {
+    from {
+        transform: translateZ(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateZ(0px);
+        opacity: 1;
+    }
+}
+
+
+.contact {
+    height: 400px;
+    width: 450px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact p {
+    margin-top: 20px;
+}
+
+.btns {
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+
+}
+
+.btns button {
+    padding: 10px;
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    /* background-color: blue; */
+    text-decoration: none;
+    border: none;
+}
+.btns button i{
+    font-size: 30px;
+    color: black;
+}
+.btns button a{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+.btns button p{
+    color: black;
+}
+/* .btns button:active {
+    background-color: black;
+
+} */
+
+.contactme {
+    height: 450px;
+    width: 400px;
+    background-color: blue;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.contactme input {
+    margin-left: 0px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contactme div {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.contactme h1 {
+    margin-left: 70px;
+    text-decoration: dotted;
+}
+
+.contactme textarea {
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* .contactme p{
+    gap: 0px;
+    margin-top: 15px;
+} */
+.sentbtn button {
+    padding: 8px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.sentbtn button:active {
+    background-color: blue;
+    color: white;
+}
+
+.my_cv {
+    text-align: center;
+    animation: mycv 2s ease-in forwards;
+    transform-style: preserve-3d;
+}
+
+.my_cv img {
+    height: 530px;
+}
+
+@keyframes mycv {
+
+    /* from{transform: translateY(-500px);}
+    to{transform: translateY(0px);} */
+    from {
+        transform: translateZ(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateZ(0px);
+        opacity: 1;
+    }
+}
+
+
+/* -------------------- RESPONSIVENESS START -------------------- */
+
+/* Tablets and small laptops */
+@media (max-width: 992px) {
+    .mainbody {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .frontend p {
+        max-width: 90%;
+        margin: 10px auto;
+        font-size: 18px;
+    }
+
+    .picture img {
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .icons {
+        justify-content: center;
+        gap: 15px;
+        margin: 20px auto;
+    }
+
+    .icons i {
+        font-size: 20px;
+        width: 40px;
+        padding: 7px;
+    }
+
+    .btns {
+        justify-content: center;
+        margin-left: 0;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .btns button {
+        width: 150px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .hithere, .sohaib {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .sohaib h1 {
+        font-size: 24px;
+    }
+
+    .frontend p {
+        font-size: 16px;
+    }
+
+    .mainbody {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .picture img {
+        width: 200px !important;
+        height: 200px !important;
+        margin-top: 10px !important;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icons i {
+        font-size: 18px;
+        width: 35px;
+        padding: 6px;
+    }
+
+    .btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btns button {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .btns button a {
+        justify-content: center;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+    .hithere h2 {
+        font-size: 18px;
+    }
+
+    .sohaib h1 {
+        font-size: 20px;
+    }
+
+    .frontend p {
+        font-size: 14px;
+        max-width: 95%;
+    }
+
+    .picture img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    .icons {
+        gap: 8px;
+    }
+
+    .btns button {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+/* -------------------- RESPONSIVENESS END -------------------- */
