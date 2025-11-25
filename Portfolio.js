@@ -2,7 +2,7 @@ import React from 'react'
 import './Porfolio.css'
 import { Link } from 'react-router-dom'
 import Typical from 'react-typical';
-import Picture from '../My Fortfolio/Dp1.pic.jpg'
+import Picture from '../My Portfolio/Dp1.pic.jpg'
 
 
 
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     <button><a href='https://github.com/sohaibahmad786'><p>Github</p><i class="fa-brands fa-square-github"></i></a></button>
                 </div>
                 <div>
-                    <button><Link to={'/cv'} style={{ textDecoration: "none", color: "white" }}><a><p>Resume</p><i class="fa-solid fa-file-image"></i></a></Link></button>
+                    <button><Link to={'/cv'} style={{ textDecoration: "none", color: "white"}}><a><p>Resume</p><i class="fa-solid fa-file-image"></i></a></Link></button>
                 </div>
 
             </div>

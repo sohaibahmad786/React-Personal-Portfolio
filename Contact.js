@@ -22,7 +22,7 @@ const Contact = () => {
                <textarea rows={8} cols={30} placeholder='Enter Your Message'></textarea>
             </div>
             <div className='sentbtn'>
-                <button onClick={data}>Sent</button>
+                <button onClick={data} style={{backgroundColor:"white", color:"blue"}}>Sent</button>
             </div>
         </div>
   )

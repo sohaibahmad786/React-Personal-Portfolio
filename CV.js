@@ -1,6 +1,6 @@
 import React from 'react'
 import './Porfolio.css'
-import cv from '../My Fortfolio/new_CV.jpg'
+import cv from '../My Portfolio/new_CV.jpg'
 
 const CV = () => {
   return (
